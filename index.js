@@ -38,9 +38,7 @@ butD.addEventListener("click", () => {
 
 corBut.addEventListener("click", () => {
   pcAnswer.innerHTML = " ";
-  localStorage.removeItem("min");
-  localStorage.removeItem("max");
-  localStorage.removeItem("guess");
+  localStorage.clear();
   butU.style.display = "none";
   butD.style.display = "none";
   corBut.style.display = "none";
