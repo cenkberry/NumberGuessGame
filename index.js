@@ -43,3 +43,7 @@ corBut.addEventListener("click", () => {
   butD.style.display = "none";
   corBut.style.display = "none";
 });
+
+
+
+
