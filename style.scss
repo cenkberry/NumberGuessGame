@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-indent: 0;
@@ -16,24 +16,37 @@ html {
     font-size: 16px;
 }
 
-.container-sm{
-    width: 100%;
-    background-color: black;
-}
-
-.btn{
+.btn {
     width: 7rem;
 }
 
-input{
-    width: 10rem;
-    height: 4.2rem;
-    font-size: 3rem;
-    text-align: center;
-    margin:0;
-    padding: 0;
- 
+h3 {
+    color: rgb(48, 180, 197);
+    font-weight: 600;
 }
-.pcAnswer{
+
+p {
+    font-weight: 600;
+    color: rgb(218, 218, 218);
+}
+
+.pcAnswer {
     font-size: 4rem;
+    animation: getbig 2s linear infinite;
+    margin: 0;
+    font-weight: 600;
+}
+
+@keyframes getbig {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.6);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }

@@ -16,25 +16,55 @@ html {
   font-size: 16px;
 }
 
-.container-sm {
-  width: 100%;
-  background-color: black;
-}
-
 .btn {
   width: 7rem;
 }
 
-input {
-  width: 10rem;
-  height: 4.2rem;
-  font-size: 3rem;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+h3 {
+  color: #30b4c5;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 600;
+  color: #dadada;
 }
 
 .pcAnswer {
   font-size: 4rem;
+  -webkit-animation: getbig 2s linear infinite;
+          animation: getbig 2s linear infinite;
+  margin: 0;
+  font-weight: 600;
+}
+
+@-webkit-keyframes getbig {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes getbig {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 /*# sourceMappingURL=style.css.map */
