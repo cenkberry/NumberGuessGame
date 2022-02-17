@@ -1,1 +1,1 @@
-# myPractices
+# NumberGuessGame
